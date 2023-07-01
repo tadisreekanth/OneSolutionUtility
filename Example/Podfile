@@ -1,0 +1,6 @@
+use_frameworks!
+target 'OneSolutionUtility_Tests' do
+  pod 'OneSolutionUtility', :path => '../'
+  
+  
+end
