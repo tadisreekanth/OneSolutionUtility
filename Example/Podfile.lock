@@ -1,0 +1,16 @@
+PODS:
+  - OneSolutionUtility (0.0.1)
+
+DEPENDENCIES:
+  - OneSolutionUtility (from `../`)
+
+EXTERNAL SOURCES:
+  OneSolutionUtility:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OneSolutionUtility: 4a1cf60fb39295c3b5e34504f8bfa22c529d5862
+
+PODFILE CHECKSUM: af72f6c093a09a36d4800c92068c8101e5399c56
+
+COCOAPODS: 1.12.1
