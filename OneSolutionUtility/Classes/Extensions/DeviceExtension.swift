@@ -7,6 +7,18 @@
 
 import Foundation
 
-public var kDeviceId: String {
-    return UIDevice.current.identifierForVendor?.uuidString ?? ""
+public extension UIDevice {
+    
+    static var deviceID: String {
+        current.identifierForVendor?.uuidString ?? ""
+    }
+ 
+    static var isIphone: Bool {
+        current.userInterfaceIdiom == .phone
+    }
+    
+    static var isIpad: Bool {
+        current.userInterfaceIdiom == .pad
+    }
+    
 }

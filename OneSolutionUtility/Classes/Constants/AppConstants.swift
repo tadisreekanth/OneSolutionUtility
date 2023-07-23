@@ -15,29 +15,11 @@ public protocol AppConstants: AnyObject {
     var bundleIdentifier: String { get }
 }
 
+//let appDelegate = UIApplication.shared.delegate as! AppDelegate
+//var kWindow: UIWindow = UIApplication.shared.windows.last ?? appDelegate.window!
+//var kWindowFirst: UIWindow = UIApplication.shared.windows.first ?? appDelegate.window!
+//var kNavigationController: UINavigationController?
 
-////MARK: - App Bundle
-//
-//let kAppVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"
-//let kAppBuild = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "1"
-//
-//let kAppBundleIdentifier = Bundle.main.bundleIdentifier ?? ""
-//
-//let kBundleIdentifier_Production = "com.Infyz.OneSolution"
-//let kBundleIdentifier_EPC_UAT = "com.Infyz.OneSolutionEPCUAT"
-//let kBundleIdentifier_UAT = "com.Infyz.OneSolutionUAT"
-//let kBundleIdentifier_Dev = "com.yqlabs.OneSolution"
-//
-//
-//var keyVersion: String {
-//    if kAppBundleIdentifier == kBundleIdentifier_Production {
-//        return  "iosPro"
-//    }
-//    else if kAppBundleIdentifier == kBundleIdentifier_EPC_UAT {
-//        return "iosUat"
-//    }
-//    else if kAppBundleIdentifier == kBundleIdentifier_UAT {
-//        return "iosUat"
-//    }
-//    return "iosUat"
-//}
+
+//let kStoryboardMain: UIStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+//let kStoryboardLogin: UIStoryboard = UIStoryboard(name: "Login", bundle: Bundle.main)
