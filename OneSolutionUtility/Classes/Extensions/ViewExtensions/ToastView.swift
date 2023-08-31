@@ -45,16 +45,16 @@ public extension View {
 /// Global class that will manage toasts
 public class ToastPresenter: ObservableObject {
     // This static property probably isn't even needed as you can inject via @EnvironmentObject
-    static let shared: ToastPresenter = ToastPresenter()
+    public static let shared: ToastPresenter = ToastPresenter()
     
     private init() {}
     
-    @Published var isPresented: Bool = false
+    @Published public var isPresented: Bool = false
     private(set) var text: String?
     private var timer: Timer?
     
     /// Call this function to present toasts
-    func presentToast(text: String, duration: TimeInterval = 3) {
+    public func presentToast(text: String, duration: TimeInterval = 3) {
         DispatchQueue.main.async {
             // reset the toast if one is currently being presented.
             self.isPresented = false
