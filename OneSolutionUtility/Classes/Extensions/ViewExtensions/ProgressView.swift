@@ -47,19 +47,19 @@ public extension View {
 /// Global class that will manage toasts
 public class ProgressPresenter: ObservableObject {
     // This static property probably isn't even needed as you can inject via @EnvironmentObject
-    static let shared: ProgressPresenter = ProgressPresenter()
+    public static let shared: ProgressPresenter = ProgressPresenter()
     
     private init() {}
     
-    private(set) var text: String?
-    @Published var progressCount: Int = 0
+    public private(set) var text: String?
+    @Published public var progressCount: Int = 0
     
-    func showProgress(text: String? = nil) {
+    public func showProgress(text: String? = nil) {
         self.text = text
         progressCount += 1
     }
     
-    func hideProgress() {
+    public func hideProgress() {
         DispatchQueue.main.async {
             self.progressCount -= 1
         }

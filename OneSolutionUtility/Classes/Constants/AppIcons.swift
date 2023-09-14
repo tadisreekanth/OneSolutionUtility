@@ -6,9 +6,14 @@
 //
 
 import Foundation
+import SwiftUI
 
 public enum AssetImage: String {
     case bgimage = "bg_image"
+    
+    public func image() -> Image {
+        Image(self.rawValue, bundle: UtilityBundle)
+    }
 }
 
 public enum AssetIcon: String {
@@ -64,4 +69,8 @@ public enum AssetIcon: String {
     case tick_red = "tick_red"
     case trash = "trash"
     case add_image = "u_img_icon"
+    
+    public func image() -> Image {
+        Image(self.rawValue, bundle: UtilityBundle)
+    }
 }

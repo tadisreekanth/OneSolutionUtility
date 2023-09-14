@@ -11,8 +11,10 @@ public protocol AppConstants: AnyObject {
 
     var appVersion: String { get }
     var buildVersion: String { get }
-
-    var bundleIdentifier: String { get }
+    
+    var appEnvironmentText: String { get }
+    
+    var defaultCredentials: (userName: String, password: String) { get }
 }
 
 //let appDelegate = UIApplication.shared.delegate as! AppDelegate

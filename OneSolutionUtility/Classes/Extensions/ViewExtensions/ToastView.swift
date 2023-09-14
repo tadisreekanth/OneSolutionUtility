@@ -50,7 +50,7 @@ public class ToastPresenter: ObservableObject {
     private init() {}
     
     @Published public var isPresented: Bool = false
-    private(set) var text: String?
+    public private(set) var text: String?
     private var timer: Timer?
     
     /// Call this function to present toasts

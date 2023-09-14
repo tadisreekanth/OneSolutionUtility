@@ -7,5 +7,5 @@
 
 import Foundation
 
-public typealias noParamsHandler = () -> Void
-public typealias headerTuple = (Bool, handler: noParamsHandler?)
+public typealias EmptyParamsHandler = () -> Void
+public typealias HeaderTuple = (Bool, handler: EmptyParamsHandler?)
