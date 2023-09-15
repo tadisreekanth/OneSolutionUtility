@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'OneSolutionUtility/**/*'
   
-  spec.resources = "OneSolutionUtility/Resources/*"
+  s.resources = "OneSolutionUtility/Resources/*"
 #   s.resource_bundles = {
 #     'OneSolutionUtility' => ['OneSolutionUtility/Resources/*']
 #   }
