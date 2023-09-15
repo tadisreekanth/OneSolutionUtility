@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'OneSolutionUtility/**/*'
   
-#  s.resources = "OneSolutionUtility/**/*.png"
+  s.resources = "OneSolutionUtility/**/*.png"
 #   s.resource_bundles = {
 #     'OneSolutionUtility' => ['OneSolutionUtility/*.xcassets']
 #   }

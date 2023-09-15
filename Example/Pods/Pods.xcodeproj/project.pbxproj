@@ -11,6 +11,8 @@
 		41B23D6BA128B3CC89422539705EE079 /* OneSolutionUtility-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2BC94855E0757F37E43D5D1FA72327 /* OneSolutionUtility-dummy.m */; };
 		7C4D191D5534C4F4BF14701975FDAC4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A8C3896CE8C58A6E428ADB5AD8CC252C /* Pods-OneSolutionUtility_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0B9C45BB0A3553E30DB5B8119795A1 /* Pods-OneSolutionUtility_Tests-dummy.m */; };
+		D1634EBB2AB4293F005BC609 /* AppAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1634EB92AB4293F005BC609 /* AppAssets.xcassets */; };
+		D1634EBC2AB4293F005BC609 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1634EBA2AB4293F005BC609 /* Colors.xcassets */; };
 		F8202413F77EBC5ACB79782812A45F82 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DD77A9808F6D8EF54756683E2FC5F /* ReplaceMe.swift */; };
 		FB01CDFE6CA002C30970FC78957110DF /* OneSolutionUtility-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7CBB035552B8B66017BA7BDFE0D9B82 /* OneSolutionUtility-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC6087E353E0A45EFA109AF0B2F58714 /* Pods-OneSolutionUtility_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 831C297B4C5C536F8F5DD9D7C7A85898 /* Pods-OneSolutionUtility_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,14 +35,14 @@
 		281DD77A9808F6D8EF54756683E2FC5F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = OneSolutionUtility/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		67AB193B51098FC8C4094BA65662ED41 /* OneSolutionUtility */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OneSolutionUtility; path = OneSolutionUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68EE7A613DEA274C228762C40694CA57 /* OneSolutionUtility.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OneSolutionUtility.modulemap; sourceTree = "<group>"; };
-		710C57B889813FB4BFA21145FD9C7776 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		710C57B889813FB4BFA21145FD9C7776 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		79929B4EBEF86E730DA9156FDEFE23F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		79929B4EBEF86E730DA9156FDEFE23F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		831C297B4C5C536F8F5DD9D7C7A85898 /* Pods-OneSolutionUtility_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneSolutionUtility_Tests-umbrella.h"; sourceTree = "<group>"; };
 		88EE0ADE2EC98E5CDBCE3D1C9BC909B9 /* Pods-OneSolutionUtility_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSolutionUtility_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8F0B9C45BB0A3553E30DB5B8119795A1 /* Pods-OneSolutionUtility_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneSolutionUtility_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F9AB7CF243A591C180F30A3A906A59E /* OneSolutionUtility.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OneSolutionUtility.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F9AB7CF243A591C180F30A3A906A59E /* OneSolutionUtility.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OneSolutionUtility.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A607596DE01B9EF598D030BD7856BB92 /* Pods-OneSolutionUtility_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OneSolutionUtility_Tests"; path = Pods_OneSolutionUtility_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E3F5FE7AC88EB1F33A92774BEAD9D0 /* Pods-OneSolutionUtility_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OneSolutionUtility_Tests.modulemap"; sourceTree = "<group>"; };
 		AA4FBDA4961CDA73BAA95A8959D6E432 /* Pods-OneSolutionUtility_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneSolutionUtility_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		B7CBB035552B8B66017BA7BDFE0D9B82 /* OneSolutionUtility-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OneSolutionUtility-umbrella.h"; sourceTree = "<group>"; };
 		BADDD552BED8933A63F1FCD28859B8CF /* OneSolutionUtility-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OneSolutionUtility-Info.plist"; sourceTree = "<group>"; };
 		C971A5209298A9B8DB2D087C3D35D58B /* Pods-OneSolutionUtility_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneSolutionUtility_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1634EB92AB4293F005BC609 /* AppAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = AppAssets.xcassets; path = ../../AppAssets.xcassets; sourceTree = "<group>"; };
+		D1634EBA2AB4293F005BC609 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = ../../Colors.xcassets; sourceTree = "<group>"; };
 		D6B6A6F38607D77975653BB78406D91F /* Pods-OneSolutionUtility_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSolutionUtility_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EB9B2E7500CE90C29F3EA648FE7C9CF1 /* Pods-OneSolutionUtility_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OneSolutionUtility_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,6 +166,8 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
+				D1634EB92AB4293F005BC609 /* AppAssets.xcassets */,
+				D1634EBA2AB4293F005BC609 /* Colors.xcassets */,
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				C2BC937EC85AFED53898C928FF5BDE35 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
@@ -277,6 +283,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1634EBB2AB4293F005BC609 /* AppAssets.xcassets in Resources */,
+				D1634EBC2AB4293F005BC609 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,8 +508,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
