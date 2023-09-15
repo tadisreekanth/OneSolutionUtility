@@ -11,7 +11,7 @@ import SwiftUI
 public enum AssetImage: String {
     case bgimage = "bg_image"
     
-    public func image() -> Image {
+    public var image: Image {
         Image(self.rawValue, bundle: UtilityBundle)
     }
 }
@@ -70,7 +70,7 @@ public enum AssetIcon: String {
     case trash = "trash"
     case add_image = "u_img_icon"
     
-    public func image() -> Image {
+    public var image: Image {
         Image(self.rawValue, bundle: UtilityBundle)
     }
 }
