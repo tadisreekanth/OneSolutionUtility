@@ -11,8 +11,6 @@
 		41B23D6BA128B3CC89422539705EE079 /* OneSolutionUtility-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2BC94855E0757F37E43D5D1FA72327 /* OneSolutionUtility-dummy.m */; };
 		7C4D191D5534C4F4BF14701975FDAC4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A8C3896CE8C58A6E428ADB5AD8CC252C /* Pods-OneSolutionUtility_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0B9C45BB0A3553E30DB5B8119795A1 /* Pods-OneSolutionUtility_Tests-dummy.m */; };
-		D1634EBB2AB4293F005BC609 /* AppAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1634EB92AB4293F005BC609 /* AppAssets.xcassets */; };
-		D1634EBC2AB4293F005BC609 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1634EBA2AB4293F005BC609 /* Colors.xcassets */; };
 		F8202413F77EBC5ACB79782812A45F82 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DD77A9808F6D8EF54756683E2FC5F /* ReplaceMe.swift */; };
 		FB01CDFE6CA002C30970FC78957110DF /* OneSolutionUtility-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7CBB035552B8B66017BA7BDFE0D9B82 /* OneSolutionUtility-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC6087E353E0A45EFA109AF0B2F58714 /* Pods-OneSolutionUtility_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 831C297B4C5C536F8F5DD9D7C7A85898 /* Pods-OneSolutionUtility_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -51,8 +49,6 @@
 		B7CBB035552B8B66017BA7BDFE0D9B82 /* OneSolutionUtility-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OneSolutionUtility-umbrella.h"; sourceTree = "<group>"; };
 		BADDD552BED8933A63F1FCD28859B8CF /* OneSolutionUtility-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OneSolutionUtility-Info.plist"; sourceTree = "<group>"; };
 		C971A5209298A9B8DB2D087C3D35D58B /* Pods-OneSolutionUtility_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneSolutionUtility_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D1634EB92AB4293F005BC609 /* AppAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = AppAssets.xcassets; path = ../../AppAssets.xcassets; sourceTree = "<group>"; };
-		D1634EBA2AB4293F005BC609 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = ../../Colors.xcassets; sourceTree = "<group>"; };
 		D6B6A6F38607D77975653BB78406D91F /* Pods-OneSolutionUtility_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSolutionUtility_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EB9B2E7500CE90C29F3EA648FE7C9CF1 /* Pods-OneSolutionUtility_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OneSolutionUtility_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -166,8 +162,6 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				D1634EB92AB4293F005BC609 /* AppAssets.xcassets */,
-				D1634EBA2AB4293F005BC609 /* Colors.xcassets */,
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				C2BC937EC85AFED53898C928FF5BDE35 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
@@ -283,8 +277,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1634EBB2AB4293F005BC609 /* AppAssets.xcassets in Resources */,
-				D1634EBC2AB4293F005BC609 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
