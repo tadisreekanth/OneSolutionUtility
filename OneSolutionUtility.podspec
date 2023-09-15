@@ -32,9 +32,10 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'OneSolutionUtility/**/*'
   
-   s.resource_bundles = {
-     'OneSolutionUtility' => ['*.xcassets']
-   }
+  s.resources = "*.xcassets"
+#   s.resource_bundles = {
+#     'OneSolutionUtility' => ['*.xcassets']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
