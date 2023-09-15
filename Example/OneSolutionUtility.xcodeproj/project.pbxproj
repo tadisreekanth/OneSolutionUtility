@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		431F8F7508D6BD5449B2A805 /* Pods_OneSolutionUtility_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAC82864F2F28B82DBB7753 /* Pods_OneSolutionUtility_Tests.framework */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		D1634EB12AB400D5005BC609 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1634EAF2AB400D5005BC609 /* Colors.xcassets */; };
+		D1634EB22AB400D5005BC609 /* AppAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1634EB02AB400D5005BC609 /* AppAssets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		892CF526A2CA2A5A6BE4C143 /* Pods-OneSolutionUtility_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSolutionUtility_Tests.debug.xcconfig"; path = "Target Support Files/Pods-OneSolutionUtility_Tests/Pods-OneSolutionUtility_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BCDEFF1AF8CFE4DDA50A157C /* Pods-OneSolutionUtility_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSolutionUtility_Tests.release.xcconfig"; path = "Target Support Files/Pods-OneSolutionUtility_Tests/Pods-OneSolutionUtility_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D1634EAF2AB400D5005BC609 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = ../Colors.xcassets; sourceTree = "<group>"; };
+		D1634EB02AB400D5005BC609 /* AppAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = AppAssets.xcassets; path = ../AppAssets.xcassets; sourceTree = "<group>"; };
 		EB6BAB83E44DE0DCD89AD231 /* OneSolutionUtility.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OneSolutionUtility.podspec; path = ../OneSolutionUtility.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,6 +50,8 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				D1634EB02AB400D5005BC609 /* AppAssets.xcassets */,
+				D1634EAF2AB400D5005BC609 /* Colors.xcassets */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
@@ -95,7 +101,6 @@
 				892CF526A2CA2A5A6BE4C143 /* Pods-OneSolutionUtility_Tests.debug.xcconfig */,
 				BCDEFF1AF8CFE4DDA50A157C /* Pods-OneSolutionUtility_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -162,6 +167,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1634EB12AB400D5005BC609 /* Colors.xcassets in Resources */,
+				D1634EB22AB400D5005BC609 /* AppAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
