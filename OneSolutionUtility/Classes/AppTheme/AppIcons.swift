@@ -13,6 +13,7 @@ public enum AssetImage: String {
     
     public var image: Image {
         Image(self.rawValue, bundle: UtilityBundle)
+            .resizable()
     }
 }
 
@@ -72,5 +73,6 @@ public enum AssetIcon: String {
     
     public var image: Image {
         Image(self.rawValue, bundle: UtilityBundle)
+            .resizable()
     }
 }
