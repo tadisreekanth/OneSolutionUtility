@@ -14,6 +14,7 @@ public struct ToastView: View {
     public var body: some View {
         Text(text)
             .foregroundColor(Color.app_black)
+            .padding(.horizontal, 30)
             .padding()
             .background(Capsule().fill(Color.white))
             .shadow(radius: 6)

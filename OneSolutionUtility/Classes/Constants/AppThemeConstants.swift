@@ -65,9 +65,9 @@ public var isSimulator: Bool {
 }
 
 public func print (log: Any) {
-    if isDebug {
+//    if isDebug {
         print(log)
-    }
+//    }
 }
 
 

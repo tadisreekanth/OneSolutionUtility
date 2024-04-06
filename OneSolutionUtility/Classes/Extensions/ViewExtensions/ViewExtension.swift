@@ -18,6 +18,14 @@ public extension View {
             self
         }
     }
+    
+    @ViewBuilder func ignoreSafeArea() -> some View {
+        if #available(iOS 14.0, *) {
+            self.ignoresSafeArea(.all, edges: .all)
+        } else {
+            self
+        }
+    }
 }
 
 //MARK: - Frames
@@ -64,5 +72,15 @@ public extension View {
         self.padding(EdgeInsets(top: 7, leading: 7, bottom: 7, trailing: 7))
             .background(RoundedRectangle(cornerRadius: subViewCornerRadius)
             .foregroundColor(Color.white))
+    }
+}
+
+public extension View {
+    @ViewBuilder func ifCondition<Content: View>(_ condition: Bool, transform: (Self) -> Content) -> some View {
+        if condition {
+            transform(self)
+        } else {
+            self
+        }
     }
 }

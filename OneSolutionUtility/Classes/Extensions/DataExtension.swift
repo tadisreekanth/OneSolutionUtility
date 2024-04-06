@@ -17,13 +17,13 @@ public extension Data {
         return self
     }
     
-    func decode<T: Decodable>(_ type: T.Type) -> T? {
+    func decode<T: Decodable>(_ type: T.Type) -> Result<T, Error> {
         do {
             let item = try JSONDecoder().decode(type, from: self)
-            return item
-        }
-        catch {
-            return nil
+            return .success(item)
+        } catch {
+            print(log: error.localizedDescription)
+            return .failure(error)
         }
     }
 }

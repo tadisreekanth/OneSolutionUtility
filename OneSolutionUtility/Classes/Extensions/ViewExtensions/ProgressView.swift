@@ -12,19 +12,14 @@ import SwiftUI
 public struct Progress: View {
     public var text: String?
     public var body: some View {
-        ZStack {
-            Rectangle()
-                .fill(Color.app_separator)
-                .frame(width: 70)
-                .aspectRatio(1.0, contentMode: .fit)
-                .cornerRadius(5)
-            if #available(iOS 14.0, *) {
-                if let title = text {
-                    ProgressView(title)
-                } else {
-                    ProgressView("")
-                }
+        if #available(iOS 14.0, *) {
+            if let title = text {
+                ProgressView(title)
+            } else {
+                ProgressView("")
             }
+        } else {
+            EmptyView()
         }
     }
 }
@@ -63,5 +58,39 @@ public class ProgressPresenter: ObservableObject {
         DispatchQueue.main.async {
             self.progressCount -= 1
         }
+    }
+}
+
+public struct LoaderModifier: ViewModifier {
+    public var isLoading: Bool
+    
+    public func body(content: Content) -> some View {
+        if #available(iOS 15.0, *) {
+            content.disabled(isLoading)
+                .overlay {
+                    if isLoading {
+                        ZStack(alignment: .center) {
+                            ProgressView()
+                        }
+                    }
+                }
+        } else {
+            // Fallback on earlier versions
+            if isLoading {
+                ZStack {
+                    content.disabled(isLoading)
+                    Progress()
+                }
+            } else {
+                content
+            }
+        }
+    }
+}
+
+// MARK: VIEW EXTENSION
+public extension View {
+    func loader(_ loading: Bool) -> some View {
+        self.modifier(LoaderModifier(isLoading: loading))
     }
 }
