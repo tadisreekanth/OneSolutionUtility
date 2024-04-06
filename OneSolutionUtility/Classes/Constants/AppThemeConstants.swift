@@ -70,43 +70,6 @@ public func print (log: Any) {
 //    }
 }
 
-
-////MARK: - scan keys
-//
-//let scanKey_cargoId = "cargoId"
-//let scanKey_salesOrder = "salesOrder"
-//let scanKey_outBoundBOL = "outBoundBOL"
-//let scanKey_msoid = "msoNum"
-//let scanKey_itomnumber = "itomnumber"
-//let scanKey_modelyear = "modelYear"
-//let scanKey_configuration = "configuration"
-//let scanKey_barcodeUnique = "barcodeUniqueSeq"
-//let scanKey_witem = "witemNum"
-//
-//func keyfor (key: String) -> String {
-//
-//switch key.lowercased() {
-//case "cargoid"       :
-//    return scanKey_cargoId
-//case "salesorder"    :
-//    return scanKey_salesOrder
-//case "outboundbol"   :
-//    return scanKey_outBoundBOL
-//case "msoid"         :
-//    return scanKey_msoid
-//case "itomnumber"    :
-//    return scanKey_itomnumber
-//case "modelyear"     :
-//    return scanKey_modelyear
-//case "configuration" :
-//    return scanKey_configuration
-//case "barcodeuniqueseq" :
-//    return scanKey_barcodeUnique
-//default:
-//    return scanKey_cargoId
-//}
-//}
-//
 ////MARK: - Notification Observers
 //
 //let kNotificationName_loadout = "updateLoadOut"
@@ -130,9 +93,3 @@ public func print (log: Any) {
 ////            self.isKind(of: GeneralProcessWorkOrdersVC.self)
 ////    }
 ////}
-//
-////MARK: - UserID
-//
-//var kUserId: Int {
-//return UserData.shared.user.userID ?? 0
-//}
